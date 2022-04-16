@@ -29,6 +29,10 @@ Then add your new path to your PATH Environment variables and presto, you now ha
 
 For each release, I will upload the zip's to VirusTotal for scanning and validation. Please always confirm files before running with Virus Total or other virus checking tools.
 
+#### Note on `nc.exe`:
+`nc.exe` may show up in some virus scanners but I have confirmed that this is the proper executable from Cygwin. Its likely showing up because its a handy tool for hackers to drop on servers to poke around and thus shows up in some virus redlists. Again, please confirm the files yourself.
+
+
 ### Checksums at 20220416
 cfbc5c568c62a9155d4de0ad1d10b4a7dc8f278b  cat.exe
 1fe1eb8104773c41ece210dc9604e3193b6f3893  cygiconv-2.dll
